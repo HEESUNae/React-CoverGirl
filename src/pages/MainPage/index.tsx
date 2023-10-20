@@ -3,7 +3,7 @@ import { HashLoader } from 'react-spinners';
 import { StyledMainPage } from './style';
 import axios from 'axios';
 import Preloader from '../../components/Preloader';
-import Header from '../../components/header';
+import Header from '../../components/Header';
 import ListCard from '../../components/ListCard';
 
 type StringObject = {
@@ -52,13 +52,6 @@ const MainPage = () => {
   useEffect(() => {
     fatchApi();
   }, [isCategory]);
-
-  useEffect(() => {
-    const body = document.querySelector('html');
-    if (body) {
-      body.style.overflow = isPreloader ? 'hidden' : 'auto';
-    }
-  }, [isPreloader]);
 
   return (
     <StyledMainPage>

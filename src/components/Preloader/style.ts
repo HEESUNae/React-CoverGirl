@@ -12,7 +12,7 @@ export const StyledPreloader = styled.div`
     left: 0;
     z-index: 999;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;

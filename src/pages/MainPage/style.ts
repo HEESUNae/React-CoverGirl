@@ -14,21 +14,6 @@ export const StyledMainPage = styled.div`
     position: relative;
     min-height: 100vh;
   }
-  .scroll {
-    position: absolute;
-    width: 100%;
-    height: calc(100% - 7.3rem);
-    overflow-y: auto;
-    overflow-x: hidden;
-    &::-webkit-scrollbar {
-      width: 4px;
-      border-right: 1px solid #e2dfdb;
-    }
-    &::-webkit-scrollbar-thumb {
-      width: 2rem;
-      background-color: #e2dfdb;
-    }
-  }
   .cosmetics {
     &-container {
       display: grid;

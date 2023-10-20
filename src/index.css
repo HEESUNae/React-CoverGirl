@@ -23,7 +23,6 @@ html {
 body {
   font-family: 'IBM Plex Sans KR';
   font-size: 1.4rem;
-  overflow: hidden;
 }
 button {
   background-color: transparent;
