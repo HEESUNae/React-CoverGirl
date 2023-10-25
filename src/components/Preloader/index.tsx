@@ -12,10 +12,10 @@ const Preloader = ({ onClick }: PreloaderProps) => {
       <div className="preloader">
         <img src={commonImg.bgMain} alt="" />
         <p>
-          무료 API를 사용하여 만든 포트폴리오 용도의 개인 프로젝트 입니다 <br />
-          속도가 일시적으로 느리거나 호출에 문제가 생길경우 새로고침 해주세요.
+          화장품 브랜드 Cover Girl의 화장품 정보 무료 API를 사용하여 <br />
+          React, TypeScript로 만든 개인 포트폴리오 입니다.
         </p>
-        <p className="desc">기여도 : 디자인/퍼블/프론트 100%</p>
+        <p className="desc">기여도 100%</p>
         <button type="button" onClick={onClick}>
           포트폴리오 보러가기
         </button>
